@@ -163,6 +163,13 @@ matterbridge
 
 now start the server with matterlink (and forgelin) in the mods folder
 
-and then [RTFM!!!](https://github.com/42wim/matterbridge#configuration) and configure all your needed gateways, endpoints etc
+and then [configure](https://github.com/42wim/matterbridge#configuration) all your needed gateways, endpoints etc
 
-powered by wishful thinking
+### Building
+
+```bash
+git clone --recursive https://git.lain.faith/sorceress/MatterLink.git
+cd MatterLink/
+./gradlew setupDecompWorkspace
+./gradlew build
+```
