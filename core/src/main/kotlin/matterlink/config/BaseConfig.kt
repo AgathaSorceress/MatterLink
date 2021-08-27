@@ -584,6 +584,11 @@ data class BaseConfig(val rootDir: File) {
                             "urlTemplate",
                             urlTemplate,
                             "template for constructing the user avatar url using the uuid"
+                        ),
+                        systemUserAvatar = it.getOrDefault(
+                            "systemUserAvatar",
+                            systemUserAvatar,
+                            "avatar url for the system user"
                         )
                     )
                 }
