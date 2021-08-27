@@ -193,7 +193,7 @@ data class BaseConfig(val rootDir: File) {
 
     data class AvatarOptions(
         val enable: Boolean = true,
-        val urlTemplate: String = "https://visage.surgeplay.com/head/512/{uuid}",
+        val urlTemplate: String = "https://mc-heads.net/head/{uuid}",
         val systemUserAvatar: String = ""
     )
 
